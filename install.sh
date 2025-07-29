@@ -21,6 +21,8 @@ if [ ! -f "/opt/homebrew/bin/brew" ]; then
     echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
 fi
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Install git and stow
 brew install git stow
 
 # Configure git
@@ -31,7 +33,7 @@ git config --global user.signingkey $HOME/.ssh/mac.pub
 git config --global commit.gpgsign true
 git config --global init.defaultBranch main
 
-# Clone dotfiles
+# Clone dotfiles and stow them
 git -C $HOME clone git@github.com:rajdeepsh/mac-dotfiles.git
 cd $HOME/mac-dotfiles && stow --adopt */ && git reset --hard HEAD && cd -
 
