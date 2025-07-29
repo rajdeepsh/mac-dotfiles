@@ -7,6 +7,7 @@ echo "Configuring Mac..."
 defaults write -g ApplePressAndHoldEnabled -bool false
 defaults write -g InitialKeyRepeat -int 15
 defaults write -g KeyRepeat -int 1
+defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 70 '<dict><key>enabled</key><false/></dict>'
 
 # Make default directories
 mkdir -p $HOME/Projects $HOME/.config $HOME/.ssh
