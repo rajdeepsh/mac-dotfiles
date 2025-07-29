@@ -50,7 +50,7 @@ git config --global init.defaultBranch main
 > [!TIP]
 > You will now be able to share your public key with anyone via a unique link. For example, you can view my public keys here: [https://github.com/rajdeepsh.keys](https://github.com/rajdeepsh.keys). Simply replace my username with yours for your unique link. This also means that, to add your public keys to a remote server for ssh access, you can simply execute the following command in the server: `wget -qO- https://github.com/yourgithubusername.keys >> ~/.ssh/authorized_keys`.
 
-## Advanced SSH configuration (for MacOS)
+## Advanced SSH configuration
 
 You can configure your SSH config to automatically store the passphrase and use the stored passphrase using `UseKeychain` and `AddKeysToAgent` as shown below. When typing in your SSH passpharase for the first time with the config below, it will be saved to your iCloud keychain.
 
@@ -68,7 +68,7 @@ Host server
   IdentityFile ~/.ssh/yourkey
 ```
 
-## Remote GPU server configuration (for Ubuntu)
+## Remote GPU server configuration
 
 1. Add your **public key** for SSH access:
 
