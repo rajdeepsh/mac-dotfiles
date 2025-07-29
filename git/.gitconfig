@@ -1,0 +1,10 @@
+[user]
+	name = rajdeepsh
+	email = rajdeepsh@icloud.com
+	signingkey = /Users/rajdeep/.ssh/mac
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main
