@@ -16,8 +16,10 @@ mkdir -p $HOME/Projects $HOME/.config $HOME/.ssh
 cp -R /Users/rajdeep/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/.ssh/* $HOME/.ssh/
 
 # Install homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
+if [ ! -f "/opt/homebrew/bin/brew" ]; then
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
+fi
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install git stow
 
