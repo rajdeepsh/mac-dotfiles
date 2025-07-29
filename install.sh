@@ -41,6 +41,8 @@ echo "Installing Packages..."
 brew bundle install --file $HOME/mac-dotfiles/Brewfile
 
 fastfetch
+SCRIPT_PATH=$(realpath "$0")
+rm -- "$SCRIPT_PATH"
 for i in {5..1}; do
     echo "Rebooting in $i ..."
     sleep 1
