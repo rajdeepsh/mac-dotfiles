@@ -12,6 +12,7 @@ defaults write -g KeyRepeat -int 1
 mkdir -p $HOME/Projects $HOME/.config
 
 echo "Installing Packages..."
+brew bundle install --file $HOME/mac-dotfiles/Brewfile
 
 fastfetch
 for i in {5..1}; do
