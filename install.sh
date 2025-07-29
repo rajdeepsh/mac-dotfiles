@@ -14,6 +14,14 @@ mkdir -p $HOME/Projects $HOME/.config $HOME/.ssh
 # Copy over keys
 cp -R /Users/rajdeep/Library/Mobile\ Documents/com~apple~CloudDocs/Documents/.ssh/* $HOME/.ssh/
 
+# Configure git
+git config --global user.name "rajdeepsh"
+git config --global user.email rajdeepsh@icloud.com
+git config --global gpg.format ssh
+git config --global user.signingkey $HOME/.ssh/mac.pub
+git config --global commit.gpgsign true
+git config --global init.defaultBranch main
+
 # Install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
