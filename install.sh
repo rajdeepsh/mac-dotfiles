@@ -28,6 +28,10 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install git stow
 
+# Clone dotfiles
+git -C $HOME clone git@github.com:rajdeepsh/mac-dotfiles.git
+cd $HOME/mac-dotfiles && stow --adopt */ && git reset --hard HEAD && cd -
+
 echo "Installing Packages..."
 brew bundle install --file $HOME/mac-dotfiles/Brewfile
 
