@@ -14,6 +14,7 @@ brew "coreutils"
 brew "gnupg"
 brew "ripgrep"
 brew "diff-so-fancy"
+brew "eza"
 
 cask "ghostty"
 cask "slack"
