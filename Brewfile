@@ -13,6 +13,7 @@ brew "docker"
 brew "coreutils"
 brew "gnupg"
 brew "ripgrep"
+brew "diff-so-fancy"
 
 cask "ghostty"
 cask "slack"

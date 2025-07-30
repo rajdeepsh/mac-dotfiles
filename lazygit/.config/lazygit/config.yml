@@ -1,0 +1,37 @@
+git:
+  overrideGpg: true
+  paging:
+    colorArg: always
+    pager: diff-so-fancy
+gui:
+  authorColors:
+    "rajdeepsh": "#a6e3a1" # green
+    "*": "#f38ba8" # red
+  showCommandLog: false
+  showBottomLine: false
+  nerdFontsVersion: "3"
+  showFileIcons: true
+  commitHashLength: 0
+  commitAuthorShortLength: 0
+  scrollHeight: 8
+  spinner:
+    frames:
+      - "[#     ]"
+      - "[##    ]"
+      - "[###   ]"
+      - "[####  ]"
+      - "[##### ]"
+      - "[ #####]"
+      - "[  ####]"
+      - "[   ###]"
+      - "[    ##]"
+      - "[     #]"
+      - "[    ##]"
+      - "[   ###]"
+      - "[  ####]"
+      - "[ #####]"
+      - "[##### ]"
+      - "[####  ]"
+      - "[###   ]"
+      - "[##    ]"
+    rate: 50
