@@ -15,6 +15,7 @@ brew "gnupg"
 brew "ripgrep"
 brew "diff-so-fancy"
 brew "eza"
+brew "neovim"
 
 cask "ghostty"
 cask "slack"

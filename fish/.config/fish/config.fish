@@ -16,3 +16,5 @@ alias br="brew update && brew upgrade && brew bundle install --file ~/mac-dotfil
 
 # Functions
 bind \cd run_cd
+bind \cj run_nvim
+bind \cg run_lazygit
