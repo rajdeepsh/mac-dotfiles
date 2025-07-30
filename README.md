@@ -1,5 +1,8 @@
 # mac-dotfiles
 
+> [!NOTE]
+> Two config files in this repository differs slightly from their counterpart in the `arch-dotfiles` repository: `fish/config.fish` and `ghostty/config`.
+
 ## Setup Mac
 Download `install.sh`  and execute it:
 ```bash
