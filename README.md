@@ -86,7 +86,7 @@ echo "tmux new-session -A" >> ~/.bashrc
 mkdir -p ~/.config/tmux && echo "set -g mouse on" >> ~/.config/tmux/tmux.conf
 ```
 
-3. Install uv python package manager (optional):
+3. Install `uv` python package manager (optional):
 
 ```bash
 cd ~ && curl -LsSf https://astral.sh/uv/install.sh | sh
