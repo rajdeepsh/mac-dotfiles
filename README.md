@@ -22,9 +22,9 @@ git config --global user.name "Rajdeep"
 git config --global user.email "rajd33psh@gmail.com"
 ```
 
-## Install dotfiles
+## Install dotfiles and configure Mac
 ```zsh
-mkdir -p ~/Repos ~/.config
+mkdir -p ~/Repos ~/.config && touch ~/.hushlogin
 gh repo clone rajdeepsh/mac-dotfiles ~/Repos/mac-dotfiles
 cd ~/Repos/mac-dotfiles && stow --target="$HOME" --adopt --no-folding */ && git restore .
 ```
