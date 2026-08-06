@@ -18,5 +18,6 @@ brew bundle install --file=<(curl -fsSL https://raw.githubusercontent.com/rajdee
 ## Setup dotfiles
 ```zsh
 gh auth login
-gh repo clone mac-dotfiles
+mkdir -p ~/Repos ~/.config
+gh repo clone rajdeepsh/mac-dotfiles ~/Repos/mac-dotfiles
 ```
