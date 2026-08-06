@@ -14,3 +14,9 @@ brew trust anomalyco/tap
 brew trust oven-sh/bun
 brew bundle install --file=<(curl -fsSL https://raw.githubusercontent.com/rajdeepsh/mac-dotfiles/main/Brewfile)
 ```
+
+## Setup dotfiles
+```zsh
+gh auth login
+gh repo clone mac-dotfiles
+```
