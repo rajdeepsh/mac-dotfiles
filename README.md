@@ -6,3 +6,4 @@
 3. Spotify
 4. Telegram
 5. Zoom
+6. Homebrew (via CLI)
