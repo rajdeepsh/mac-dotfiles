@@ -26,6 +26,5 @@ git config --global user.email "rajd33psh@gmail.com"
 ```zsh
 mkdir -p ~/Repos ~/.config
 gh repo clone rajdeepsh/mac-dotfiles ~/Repos/mac-dotfiles
-cd ~/Repos/mac-dotfiles
-stow --target="$HOME" --no-folding */
+cd ~/Repos/mac-dotfiles && stow --target="$HOME" --adopt --no-folding */ && git restore .
 ```
