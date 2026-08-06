@@ -11,7 +11,6 @@
 ## Install `Homebrew` packages and casks
 ```zsh
 brew trust anomalyco/tap
-```
-```zsh
+brew trust oven-sh/bun
 brew bundle install --file=<(curl -fsSL https://raw.githubusercontent.com/rajdeepsh/mac-dotfiles/main/Brewfile)
 ```
