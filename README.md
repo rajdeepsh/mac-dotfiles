@@ -7,3 +7,8 @@
 4. Telegram
 5. Zoom
 6. Homebrew (via CLI)
+
+## Install `Homebrew` packages and casks
+```zsh
+brew bundle install --file=<(curl -fsSL https://raw.githubusercontent.com/rajdeepsh/mac-dotfiles/main/Brewfile)
+```
