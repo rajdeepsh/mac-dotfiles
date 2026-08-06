@@ -15,14 +15,14 @@ brew trust oven-sh/bun
 brew bundle install --file=<(curl -fsSL https://raw.githubusercontent.com/rajdeepsh/mac-dotfiles/main/Brewfile)
 ```
 
-## Setup GitHub and Git
+## Authenticate GitHub and configure Git
 ```zsh
 gh auth login
 git config --global user.name "Rajdeep"
 git config --global user.email "rajd33psh@gmail.com"
 ```
 
-## Setup Mac
+## Install dotfiles
 ```zsh
 mkdir -p ~/Repos ~/.config
 gh repo clone rajdeepsh/mac-dotfiles ~/Repos/mac-dotfiles
