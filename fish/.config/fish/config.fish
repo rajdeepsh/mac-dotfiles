@@ -4,3 +4,7 @@ end
 
 set -gx XDG_CONFIG_HOME "$HOME/.config"
 set -g fish_greeting
+
+alias c "opencode"
+alias g "lazygit"
+alias v "nvim"
