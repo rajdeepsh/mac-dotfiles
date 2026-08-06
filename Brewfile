@@ -1,4 +1,8 @@
 brew "git"
 brew "gh"
+brew "lazygit"
+brew "anomalyco/tap/opencode"
 brew "fish"
+brew "neovim"
+brew "tmux"
 cask "ghostty"
