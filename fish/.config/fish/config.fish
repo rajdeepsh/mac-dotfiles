@@ -8,3 +8,4 @@ set -g fish_greeting
 alias c "opencode"
 alias g "lazygit"
 alias v "nvim"
+alias s "stowdots"
