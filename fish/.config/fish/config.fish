@@ -10,3 +10,4 @@ alias g lazygit
 alias v nvim
 alias s stowdots
 alias ls "eza -l -F never --color always --icons always -s name --group-directories-first --show-symlinks -h -o --no-user --total-size --no-git"
+alias tree "eza -l -F never --color always --icons always -s name --group-directories-first --show-symlinks -h -o --no-user --total-size --no-git -T"
