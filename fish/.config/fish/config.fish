@@ -5,7 +5,8 @@ end
 set -gx XDG_CONFIG_HOME "$HOME/.config"
 set -g fish_greeting
 
-alias c "opencode"
-alias g "lazygit"
-alias v "nvim"
-alias s "stowdots"
+alias c opencode
+alias g lazygit
+alias v nvim
+alias s stowdots
+alias ls "eza -l -F never --color always --icons always -s name --group-directories-first --show-symlinks -h -o --no-user --total-size --no-git"
