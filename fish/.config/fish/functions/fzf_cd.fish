@@ -6,5 +6,6 @@ function fzf_cd
 
     if test -n "$selected"
         cd "$selected"
+        commandline -f repaint
     end
 end
