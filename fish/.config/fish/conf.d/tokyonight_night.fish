@@ -35,6 +35,7 @@ set -g fish_pager_color_description $comment
 set -g fish_pager_color_selected_background --background=$selection
 
 set -gx FZF_DEFAULT_OPTS "$FZF_DEFAULT_OPTS \
+  --prompt='❯ ' \
   --highlight-line \
   --info=inline-right \
   --ansi \
