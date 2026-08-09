@@ -3,7 +3,7 @@ if status is-interactive
 end
 
 set -gx XDG_CONFIG_HOME "$HOME/.config"
-set -gx SHELL fish
+# set -gx SHELL fish
 set -gx EDITOR nvim
 set -gx VISUAL nvim
 set -g fish_greeting

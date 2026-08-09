@@ -6,7 +6,8 @@
 3. Spotify
 4. Telegram
 5. Zoom
-6. Homebrew (via CLI)
+6. Slack
+7. Homebrew (via CLI)
 
 ## Install Homebrew packages and casks
 ```zsh
