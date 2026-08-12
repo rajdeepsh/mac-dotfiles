@@ -1,3 +1,4 @@
 theme = TokyoNight Night
 command = /opt/homebrew/bin/fish
 macos-titlebar-style = tabs
+macos-icon = paper
