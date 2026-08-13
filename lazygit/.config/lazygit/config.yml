@@ -29,8 +29,8 @@ customCommands:
   - key: 'v'
     context: 'files'
     description: 'Smart commit'
-    command: "git diff --staged --quiet || (MSG=$(git diff --staged | opencode run -c --agent plan 'Generate a concise git commit message for this staged diff. Output ONLY the raw commit message with no markdown, no code blocks, no backticks, no colons, no explanations.') && git commit -m \"$MSG\" && git push)"
-    loadingText: 'Committing...'
+    command: "git diff --staged --quiet || (MSG=$(git diff --staged | opencode run -c --agent plan 'Generate a concise git commit message for this staged diff. Output ONLY the raw commit message with no markdown, no code blocks, no backticks, no colons, no explanations.') && git commit -m \"$MSG\" && git push && osascript -e 'display notification \"Changes committed & pushed\" with title \"LazyGit\" sound name \"Blow\"')"
+    loadingText: 'Smart committing...'
     output: log
 git:
   diffRenderers:
