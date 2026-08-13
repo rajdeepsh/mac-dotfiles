@@ -7,7 +7,8 @@
 4. Telegram
 5. Zoom
 6. Slack
-7. Homebrew (via CLI)
+7. Claude
+8. Homebrew (via CLI)
 
 ## Install Homebrew packages and casks
 ```zsh
