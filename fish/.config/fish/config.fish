@@ -9,6 +9,7 @@ set -gx VISUAL nvim
 set -g fish_greeting
 
 alias c opencode
+alias cc claude
 alias g lazygit
 alias v nvim
 alias s stowdots
