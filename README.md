@@ -28,4 +28,5 @@ git config --global user.email "rajd33psh@gmail.com"
 mkdir -p ~/Repos ~/.config && touch ~/.hushlogin
 gh repo clone rajdeepsh/mac-dotfiles ~/Repos/mac-dotfiles
 cd ~/Repos/mac-dotfiles && stow --target="$HOME" --adopt --no-folding */ && git restore .
+defaults write -g ApplePressAndHoldEnabled -bool false
 ```
