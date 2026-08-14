@@ -2,3 +2,4 @@ theme = TokyoNight Night
 command = /opt/homebrew/bin/fish
 macos-titlebar-style = tabs
 window-new-tab-position = end
+font-size = 16
